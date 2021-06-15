@@ -11,6 +11,7 @@ def LongestWord(sen):
 
 print(LongestWord(input()))
 
+
 #First Factorial
 def FirstFactorial(num):
   total = 1
@@ -20,5 +21,18 @@ def FirstFactorial(num):
   
   return total
 
-# keep this function call here 
 print(FirstFactorial(input()))
+
+
+#First Reverse
+def FirstReverse(strParam):
+
+  reverse = ""
+  n = -1
+  for letter in range(len(strParam)):
+    reverse += strParam[n] 
+    n -= 1
+
+  return reverse
+
+print(FirstReverse(input()))
